@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title>Formulario Administración</title>
+	<link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+<img src="logo.jpg"  height="95">
+<form action="https://misiontic2022.unab.edu.co/?redirect=0" method="get">
+<div></div>
+<table>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="usuario">Usuario:</label> </td>
+  		<td> <input type="email" id="correo" name="correo"> </td>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="psw">Contraseña:</label> </td>
+  		<td> <input type="password" id="psw" name="psw"> </td>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="name">Nombre Completo:</label> </td>
+  		<td> <input type="text" id="name" name="user_name"> </td>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="num_doc">Documento de identidad:</label> </td>
+  		<td> <input type="text" id="num_doc" name="doc"> </td>
+	</tr>
+	<tr> 
+		<td> <label for="doc"></label> </td>
+  		<td> <input type="file" id="doc" name="doc"> </td>
+		<td> (.pdf o formato de imagen) </td>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="nacimiento">Fecha de nacimiento:</label> </td>
+  		<td> <input type="date" id="nacimiento" name="nacimiento"> </td>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="correo">Correo Electrónico:</label> </td>
+  		<td> <input type="email" id="correo" name="correo"> </td>
+	</tr>
+	<tr>
+	  	<td class="fondo1"><label for="phone">Teléfono:</label></td>
+  		<td><input type="tel" id="phone" name="phone"></td>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="recibo">Último recibo de <br>energía pagado:</label> </td>
+  		<td> <input type="file" id="recibo" name="recibo"> </td>
+		<td> (.pdf o formato de imagen) </td>
+	</tr>
+	<tr> 
+		<td class="fondo1"> <label for="carta_recomendacion">Carta de recomendación:</label> </td>
+  		<td> <input type="file" id="carta_recomendacion" name="carta_recomendacion"> </td>
+		<td> (.pdf ÚNICAMENTE) </td>
+	</tr>
+	<tr> 
+		<td> Conjunto residencial de interés <br></td>
+  		<td>
+		<input type="radio" id="prado" name="edificio" value="prado">
+		<label for="prado" class="colornegro">Prados del Norte</label><br>
+  		<input type="radio" id="montesol" name="edificio" value="montesol">
+  		<label for="Montesol" class="colornegro">Montesol</label><br>
+  		<input type="radio" id="montesol" name="edificio" value="La Betania">
+  		<label for="labetania" class="colornegro">La Betania</label> </td>
+	
+	</tr>
+
+	<tr>
+		<td><label for="ingresos">Ingresos mensuales:</label></td>
+      	<td><select name="ingresos" id="lang">
+        		<option value="2">Entre 0 y 2 SMLV</option>
+        		<option value="3">Entre 2 y 3 SMLV</option>
+			<option value="5">Entre 3 y 5 SMLV</option>
+			<option value="5_mas">más de 5 SMLV</option>
+      	</select>
+	</tr>
+</table>
+
+
+<br> <h4>Estoy de acuerdo con que mis datos sean enviados y recibidos por la entidad Innmoviliaria con fines <br>de verificación de identidad y evaluación de perfil <br>
+
+<input type="checkbox" id="si" name="si" value="1">
+<label for="si"> Sí, estoy de acuerdo.</label><br>
+
+</h4>
+
+<table>
+	<tr>
+		<td><input type="submit" value="Enviar"></td>
+		<td><input type="reset"></td>
+	<tr>
+</table>
+
+
+</form>
+
+
+
+</body>
+</html>
